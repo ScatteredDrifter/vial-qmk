@@ -29,6 +29,7 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
     [2] =  { ENCODER_CCW_CW(RGB_VAD, RGB_VAI)},
 };
 #endif
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* Buran
@@ -44,23 +45,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    *  └────┴────┴─────┘└──────┘ └────┘ └──────┘└─────┴────┴────┘
    */
    [_BL] = LAYOUT(
-        ____,    	____,    	____,    	____,    	____,  		____,   ____,      	____,    	____,    	____,    	____,    	____,
-        ____,    	____,    	____,    	____,    	____,  		____,   ____,       ____,    	____,    	____,    	____,    	____,
-        ____,    	____,    	____,    	____,    	____,  		____,   ____,    	____,    	____,    	____,    	____,    	____,
-        ____,    	____,    	____,    	    	    ____,    	                            	____,    	____,    	____,    	____
+        KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,  		KC_NO,   KC_NO,      	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,
+        KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,  		KC_NO,   KC_NO,       KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,
+        KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,  		KC_NO,   KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,
+        KC_NO,    	KC_NO,    	KC_NO,    	    	    KC_NO,    	                            	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO
     ),
     [_FL] = LAYOUT(
-        ____,    	____,    	____,    	____,    	____,  		____,   ____,      	____,    	____,    	____,    	____,    	____,
-        ____,    	____,    	____,    	____,    	____,  		____,   ____,       ____,    	____,    	____,    	____,    	____,
-        ____,    	____,    	____,    	____,    	____,  		____,   ____,    	____,    	____,    	____,    	____,    	____,
-        ____,    	____,    	____,    	    	    ____,    	                            	____,    	____,    	____,    	____
+        KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,  		KC_NO,   KC_NO,      	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,
+        KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,  		KC_NO,   KC_NO,       KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,
+        KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,  		KC_NO,   KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,
+        KC_NO,    	KC_NO,    	KC_NO,    	    	    KC_NO,    	                            	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO
 
     ),
     [_FFL] = LAYOUT(
-        ____,    	____,    	____,    	____,    	____,  		____,   ____,      	____,    	____,    	____,    	____,    	____,
-        ____,    	____,    	____,    	____,    	____,  		____,   ____,       ____,    	____,    	____,    	____,    	____,
-        ____,    	____,    	____,    	____,    	____,  		____,   ____,    	____,    	____,    	____,    	____,    	____,
-        ____,    	____,    	____,    	    	    ____,    	                            	____,    	____,    	____,    	____
+        KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,  		KC_NO,   KC_NO,      	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,
+        KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,  		KC_NO,   KC_NO,       KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,
+        KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,  		KC_NO,   KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO,
+        KC_NO,    	KC_NO,    	KC_NO,    	    	    KC_NO,    	                            	KC_NO,    	KC_NO,    	KC_NO,    	KC_NO
 
     )
 };

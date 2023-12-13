@@ -13,12 +13,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+/*
 #pragma once
-
+#include "config_common.h"
 #include "quantum.h"
 
 #define ____ KC_NO
-
+*/
 /* This is a shortcut to help you visually see your layout.
  *
  * The first section contains all of the arguments representing the physical
@@ -26,7 +27,7 @@
  *
  * The second converts the arguments into a two-dimensional array which
  * represents the switch matrix.
- */
+ *
 #define LAYOUT( \
     k001, k002, k003, k004, k005, k006, k007, k008, k009, k010, k011, k012,     \
     k101, k102, k103, k104, k105, k106, k107, k108, k109, k110, k111, k112,      \
@@ -38,3 +39,4 @@
     { k201, k202, k203, k204, k205, k206, k207, k208, k209, k210, k211, k212 }, \
     { k301, k302, k303, ____, k305, ____, k307, ____, ____, k310, k311, k312 } \
 }
+*/
