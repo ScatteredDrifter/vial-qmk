@@ -16,9 +16,6 @@
 
 #pragma once
 
-#include "quantum.h"
-
-#define ____ KC_NO
 
 /* This is a shortcut to help you visually see your layout.
  *
@@ -27,7 +24,7 @@
  *
  * The second converts the arguments into a two-dimensional array which
  * represents the switch matrix.
- */
+
 #define LAYOUT( \
     k001, k002, k003, k004, k005, k006, k007, k008, k009, k010, k011, k012, \
     k101, k102, k103, k104, k105, k106, k107, k108, k109, k110, k111, k112,  \
@@ -43,3 +40,4 @@
     { k401, k402, k403, ____, k405, k406, k407, ____, k409, ____, k411, k412 },  \
     { ____, ____, ____, ____, k505, k506, ____, ____, ____, ____, ____, ____ }  \
 }
+*/

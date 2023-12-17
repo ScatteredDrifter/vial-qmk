@@ -6,8 +6,8 @@ BOOTLOADER = rp2040
 # Build Options
 #   change yes to no to disable
 #
-ENCODER_ENABLE = yes 
-ENCODER_MAP_ENABLE = yes 
+ENCODER_ENABLE = yes
+ENCODER_MAP_ENABLE = yes
 BOOTMAGIC_ENABLE = no       # Virtual DIP switch configuration
 MOUSEKEY_ENABLE = yes       # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
@@ -22,3 +22,5 @@ RGBLIGHT_ENABLE = yes        # Enable keyboard RGB underglow
 WS2812_DRIVER = vendor
 BLUETOOTH_ENABLE = no       # Enable Bluetooth
 AUDIO_ENABLE = no           # Audio output
+#POINTING_DEVICE_ENABLE = yes
+#POINTING_DEVICE_DRIVER = cirque_pinnacle_i2c
