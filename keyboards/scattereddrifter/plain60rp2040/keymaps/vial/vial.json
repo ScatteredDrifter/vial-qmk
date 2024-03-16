@@ -1,7 +1,7 @@
 {
-  "name":"plain60",
-  "vendorId":"0xFAB0",
-  "productId":"0xFAB2",
+  "name":"plain60rp2040",
+  "vendorId":"0xEEEE",
+  "productId":"0xEE03",
   "lighting":"qmk_rgblight",
   "matrix":{
     "rows":5,
