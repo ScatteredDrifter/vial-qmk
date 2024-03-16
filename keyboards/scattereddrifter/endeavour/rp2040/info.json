@@ -5,7 +5,7 @@
   "maintainer": "Evelyn",
   "usb": {
     "vid": "0x0000",
-    "pid": "0xEE00",
+    "pid": "0xEE01",
     "device_version": "0.3.0"
   },
   "ws2812": {
