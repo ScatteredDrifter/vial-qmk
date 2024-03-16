@@ -1,5 +1,4 @@
-/* Derivate of elmo's firmware >>kb-elmo<mail@elmo.space>
- *
+/* 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 2 of the License, or
@@ -33,18 +32,6 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
 #endif
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
-/* Buran
-   *  ┌────┬────┬────┬────┬────┐┌────┐┌────┬────┬────┬────┬────┐
-   *  │ Q  │ W  │  E  │ R  │ T ││    ││ Y  │ U  │ I  │ O  │ P  │
-   *  ├────┼────┼────┼────┼────┤├────┤├────┼────┼────┼────┼────┤
-   *  │ A  │ S  │ D  │ F  │ G  ││    ││ H  │L(2J│ K  │ L  │ ;  │
-   *  ├────┼────┼────┼────┼────┤├────┤├────┼────┼────┼────┼────┤
-   *  │ Z  │ X  │ C  │ V  │ B  ││    ││ N  │ M  │ ,  │ .  │ /  │
-   *  └────┴────┴────┴────┴────┘└────┘└────┴────┴────┴────┴────┘
-   *  ┌────┬────┬─────┐┌──────┐ ┌────┐ ┌──────┐┌─────┬────┬────┐
-   *  │ctrl│MO1 │ GUI ││LT1Spc│ │MCR │ │ Bksp ││Ralt │Mo1 │ctrl│
-   *  └────┴────┴─────┘└──────┘ └────┘ └──────┘└─────┴────┴────┘
-   */
    [_BL] = LAYOUT(
         ____,    	____,    	____,    	____,    	____,  		____,   ____,      	____,    	____,    	____,    	____,    	____,
         ____,    	____,    	____,    	____,    	____,  		____,   ____,       ____,    	____,    	____,    	____,
